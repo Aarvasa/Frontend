@@ -3,6 +3,7 @@ import './aboutus.css';
 import ReviewCard from "./reviewcard";
 import CompanyPartners from "./CompanyPartners";
 
+
 const AboutUs = () => {
     const milestones = [
         { month: 'May', description: 'Team Formation and Initial Planning' },
@@ -249,20 +250,20 @@ const AboutUs = () => {
     <section className="aboutusserconsultation">
                 <div className="aboutussercontent">
                     <div className="aboutusserimage">
-                    <img src="/Services/scheduleconsulatance.png" alt="House Image" />
+                    <img src="/house.png" alt="house" />
                     </div>
                     <div className="aboutusserform-container">
                     <form>
                         <label htmlFor="name">NAME</label>
                         <input type="text" id="name" placeholder="Enter your name" required />
                         
-                        <label htmlFor="email">EMAIL ADDRESS</label>
+                        <label htmlFor="email">AARVASA EMAIL ID</label>
                         <input type="email" id="email" placeholder="Enter your email" required />
                         
                         <label htmlFor="date">DATE</label>
                         <input type="date" id="date" required />
                         
-                        <button type="submit">Scheduling A Consultation</button>
+                        <button type="submit">SEND</button>
                 </form>
             </div>
         </div>

@@ -31,7 +31,7 @@ const toolsData = [
     ),
     title: "Rates & Trends",
     description: "Know all about Property Rates & Trends in your city",
-    link: "#",
+    link: "/listings",
   },
   {
     svg: (
@@ -52,7 +52,7 @@ const toolsData = [
     ),
     title: "ROI Calculator",
     description: "Know how much you'll have to pay every month on your loan",
-    link: "#",
+    link: "/listings",
   },
   {
     svg: (
@@ -87,7 +87,7 @@ const toolsData = [
     ),
     title: "Investment Hotspot",
     description: "Discover the top localities in your city for investment",
-    link: "#",
+    link: "listings",
   },
   {
     svg: (
@@ -122,7 +122,7 @@ const toolsData = [
     ),
     title: "Research Insights",
     description: "Get experts insights and research reports on real estate",
-    link: "#",
+    link: "listings",
   },
 ];
 

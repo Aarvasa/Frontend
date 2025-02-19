@@ -316,7 +316,7 @@ return (
           <div className="itali">also...</div>
           </p>
 
-          <a href="#" className="explore-link">Explore →</a>
+          <a href="/services" className="explore-link">Explore →</a>
         </div>
       </section>
 
@@ -336,7 +336,7 @@ return (
           n('/sell');
         }}>
             Post Property
-            <button class="free-btn">Free</button>
+            <span class="free-btn">Free</span>
         </button>
     </div>
 </div>
