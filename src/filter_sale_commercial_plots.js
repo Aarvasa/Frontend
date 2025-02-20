@@ -64,6 +64,19 @@ function Sell_commercial_plots_filter(){
             let ans = await op.json();
 
             console.log(ans);
+            let tb=[];
+
+            for(let temporary = 0;temporary<ans.properties.length;temporary++){
+
+                if(Object.keys(ans.properties[0]).length <= 1){
+                    continue;
+                }
+                else{
+                    tb.push(ans.properties[temporary]);
+                }
+
+            }
+            ans.properties = tb;
             const allStates = State.getStatesOfCountry("IN");
             setStates(allStates);
 

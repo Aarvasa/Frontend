@@ -67,6 +67,20 @@ function Sale_residential_plots_filter(){
 
             console.log(ans);
 
+            let tb=[];
+
+            for(let temporary = 0;temporary<ans.properties.length;temporary++){
+
+                if(Object.keys(ans.properties[0]).length <= 1){
+                    continue;
+                }
+                else{
+                    tb.push(ans.properties[temporary]);
+                }
+
+            }
+            ans.properties = tb;
+
             const allStates = State.getStatesOfCountry("IN");
             setStates(allStates);
 

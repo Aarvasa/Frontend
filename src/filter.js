@@ -176,7 +176,7 @@ function F(){
            
 
             {
-                initial.length === 0 ? (
+                /*initial.length === 0 ? (
                     <p>No data available</p>
                 ):(initial.map((key,index)=>{
                     return (
@@ -218,7 +218,7 @@ function F(){
                     );
                 }))
 
-            }
+            */}
 
 
 
