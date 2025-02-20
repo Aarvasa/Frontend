@@ -499,6 +499,7 @@ function RPF(){
 
                             <p>total amount</p>
                             <p>{key.totalAmount}</p>
+                            <img src={key.images[0]} alt="img" />
 
                             <button accessKey={index} onClick={move_to_maps}>go to location</button>
                             <button accessKey={index} onClick={ratebox}>Rate property</button>
