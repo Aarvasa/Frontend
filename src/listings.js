@@ -109,8 +109,8 @@ const Listing = () => {
             </a>
             </div>
             <div className="amenti">
-            <h3>Amenties</h3>
-            <p>All 19 amenties in a project</p>
+            <h3>Amenities</h3>
+            <p>All 19 amenities in a project</p>
             <a href={property.amenitiesLink} className="amenities-link">
               View Amenities
             </a>
@@ -179,8 +179,8 @@ const Listing = () => {
             </a>
             </div>
             <div className="amenti">
-            <h3>Amenties</h3>
-            <p>All 19 amenties in a project</p>
+            <h3>Amenities</h3>
+            <p>All 19 amenities in a project</p>
             <a href={property.amenitiesLink} className="amenities-link">
               View Amenities
             </a>
@@ -223,8 +223,8 @@ const Listing = () => {
             </a>
             </div>
             <div className="amenti">
-            <h3>Amenties</h3>
-            <p>All 19 amenties in a project</p>
+            <h3>Amenities</h3>
+            <p>All 19 amenities in a project</p>
             <a href={property.amenitiesLink} className="amenities-link">
               View Amenities
             </a>

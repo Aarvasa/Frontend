@@ -145,3 +145,48 @@
   }
 }
 /* End of Navbar Styling */
+/*Seach bar styling*/
+.search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search-button:hover {
+  opacity: 0.8;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 120px;
+  height: 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  border-color: #7c4d4d;
+}
+.hide-profile {
+  display: none;
+}

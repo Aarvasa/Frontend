@@ -263,43 +263,7 @@ return (
 </section>
 
 
-      {/* Projects */}
-      <section className="projects">
-        <h3>Best Projects of the Years</h3>
-        <h2>Our Recent Projects</h2>
-        <div className="project-cards">
-          <div className="project-card">
-            <div className="project-image">
-              <img src="/Rectangle 19.png" alt="Project Image" />
-            </div>
-            <div className="project-text">
-              <h3>Sobha Heartland II Villas</h3>
-              <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.</p>
-              <p><center>4.83</center></p>
-            </div>
-          </div>
-          <div className="project-card">
-            <div className="project-image">
-              <img src="/Rectangle 20.png" alt="Project Image" />
-            </div>
-            <div className="project-text">
-              <h3>Sobha Heartland II Villas</h3>
-              <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.</p>
-              <p><center>4.83</center></p>
-            </div>
-          </div>
-          <div className="project-card">
-            <div className="project-image">
-              <img src="/Rectangle 21.png" alt="Project Image" />
-            </div>
-            <div className="project-text">
-              <h3>Sobha Heartland II Villas</h3>
-              <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.</p>
-              <p><center>4.83</center></p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/*Bachelor's*/}
       <section className="Bachelor">
