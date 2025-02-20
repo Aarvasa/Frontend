@@ -1,0 +1,78 @@
+/* Apply blur effect to the entire content */
+.containert {
+    filter: blur(5px); /* Adjust blur intensity */
+    pointer-events: none; /* Disable all interactions */
+    user-select: none; /* Prevent text selection */
+    z-index: 1;
+    
+      
+  }
+
+  .no-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+
+  .my-block {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  
+    /* Position it off-screen initially */
+    position: absolute; 
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0; /* Initially hidden */
+    z-index: 10; /* Above everything */
+
+    /* Animation */
+    animation: slideIn 0.8s ease-out forwards;
+    
+}
+
+@keyframes slideIn {
+    from {
+        top: 100%; /* Start from outside the screen */
+        opacity: 0;
+    }
+    to {
+        top: 50%; /* End at the center */
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+ 
+  /*.my-block {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  
+    
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; 
+  }*/
+  
+  /* Ensure buttons appear disabled */
+  
+
+  #gh {
+    opacity: 1; /* Restore visibility */
+    cursor: pointer; /* Restore normal cursor */
+    pointer-events: auto; /* Enable clicking */
+}
+
+  
