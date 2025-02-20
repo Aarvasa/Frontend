@@ -178,7 +178,7 @@ function Sell_commercial_workspace() {
 
     return (
         <div>
-            <h2>Rent Your Property</h2>
+            <h2>SELL YOUR COMMERCIAL WORK SPACE</h2>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                 {Object.keys(formData).map((key) => (
                     key.includes("state") ? (

@@ -189,7 +189,7 @@ function Sell_prop() {
 
     return (
         <div>
-            <h2>Rent Your Property</h2>
+            <h2>SELL YOUR PROPERTY</h2>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                 {Object.keys(formData).map((key) => (
 
