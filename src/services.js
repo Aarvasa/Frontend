@@ -26,7 +26,7 @@ const Services = () => {
         </div>
       </div>
       <div >
-        <img src="/services/home.png" alt="home"></img>
+        <img src="/public/3d-rendering-isometric-fdgdf 1.png" alt="home"></img>
         </div>  
      </div>
      <div>
