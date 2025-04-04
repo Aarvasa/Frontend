@@ -15,7 +15,7 @@ const Agents = () => {
   useEffect(()=>{
     async function t(){
 
-      let op = await fetch('http://localhost:8000/all_agents',
+      let op = await fetch('http://localhost:8000/agents/all',
         {
             method: 'POST',
             headers: {
